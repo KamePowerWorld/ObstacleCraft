@@ -1,0 +1,17 @@
+name: ObstacleCraft
+version: '${version}'
+main: com.kamesuta.obstaclecraft.ObstacleCraft
+api-version: 1.16
+authors: [ Kamesuta ]
+
+commands:
+  obstaclecraft:
+    description: ObstacleCraftコマンド
+    permission: obstaclecraft.command
+    usage: |-
+      /obstaclecraft <start|stop>
+
+permissions:
+  obstaclecraft.command:
+    description: ObstacleCraftコマンドの実行権限
+    default: op
